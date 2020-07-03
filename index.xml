@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Look, Listen and Infer</title>
+    <link>http://example.org/</link>
+    <description>Recent content on Look, Listen and Infer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 02 Jul 2020 21:23:46 +0800</lastBuildDate>
+    
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Results</title>
+      <link>http://example.org/posts/results/</link>
+      <pubDate>Thu, 02 Jul 2020 21:23:46 +0800</pubDate>
+      
+      <guid>http://example.org/posts/results/</guid>
+      <description>Results  The model is trained and evaluated on three tasks:
+1. Zero-Shot Cross-Model Retrieval 2. Zero-Shot Sound Localization 3. Zero-Shot Recognition.  Zero-Shot Cross-Model Retrieval  Note that there are many excellent image-text cross-modal retrieval models in the literature. To compare with these image-text models, we replace their text encoders by our audio encoder. For a fair comparison, the input audios for all methods are represented by log Mel filter bank spectrograms as in our method.</description>
+    </item>
+    
+    <item>
+      <title>Dataset</title>
+      <link>http://example.org/posts/dataset/</link>
+      <pubDate>Thu, 02 Jul 2020 21:08:47 +0800</pubDate>
+      
+      <guid>http://example.org/posts/dataset/</guid>
+      <description>INSTRUMENTS_32CLASS  INSTRUMENTS_32CLASS is a new collocted instruments playing dataset, which is subset of AudioSet. The form of data is 10 sec excerpets from Youtube.
+In order to get a less noisy and well-labeld dataset for zero-shot learning, instrument solo playing videos with correct audio-visual correspondence were picked manually.
+Preprocessing  In view of the fact that the information of an instrument is mainly contained in its timbre while is less relevant to the length of time, we thus cropped audios from 10s to 3s.</description>
+    </item>
+    
+    <item>
+      <title>LLINet</title>
+      <link>http://example.org/posts/llinet/</link>
+      <pubDate>Thu, 02 Jul 2020 20:49:26 +0800</pubDate>
+      
+      <guid>http://example.org/posts/llinet/</guid>
+      <description>Abstract  In this work, for the first time, a Look, Listen and Infer Network (LLINet) is proposed to learn a zero-shot model that can infer the relations of visual scenes and sounds from novel categories never appeared before.
+LLINet is mainly desired to qualify for two tasks, i.e., image-audio cross-modal retrieval and sound localization in each image. Towards this end, it is designed as a two-branch encoding network that builds a common space for images and audios.</description>
+    </item>
+    
+  </channel>
+</rss>

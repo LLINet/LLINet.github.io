@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<meta property="og:title" content="Dataset" />
+<meta property="og:description" content="INSTRUMENTS_32CLASS  INSTRUMENTS_32CLASS is a new collocted instruments playing dataset, which is subset of AudioSet. The form of data is 10 sec excerpets from Youtube.
+In order to get a less noisy and well-labeld dataset for zero-shot learning, instrument solo playing videos with correct audio-visual correspondence were picked manually.
+Preprocessing  In view of the fact that the information of an instrument is mainly contained in its timbre while is less relevant to the length of time, we thus cropped audios from 10s to 3s." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/posts/dataset/" />
+<meta property="article:published_time" content="2020-07-02T21:08:47+08:00" />
+<meta property="article:modified_time" content="2020-07-02T21:08:47+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Dataset"/>
+<meta name="twitter:description" content="INSTRUMENTS_32CLASS  INSTRUMENTS_32CLASS is a new collocted instruments playing dataset, which is subset of AudioSet. The form of data is 10 sec excerpets from Youtube.
+In order to get a less noisy and well-labeld dataset for zero-shot learning, instrument solo playing videos with correct audio-visual correspondence were picked manually.
+Preprocessing  In view of the fact that the information of an instrument is mainly contained in its timbre while is less relevant to the length of time, we thus cropped audios from 10s to 3s."/>
+
+
+    <meta name="description" content="">
+    <link rel="canonical" href="http://example.org/posts/dataset/">
+
+    
+    <title>Dataset &middot; Look, Listen and Infer</title>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="http://example.org/css/style.css" rel="stylesheet">
+
+    
+
+    
+
+    
+  </head>
+  <body>
+    
+      
+
+
+
+<nav class="white" role="navigation">
+    <div class="row max-width">
+        <div class="col s12 l10 offset-l1">
+            
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger black-text">
+                <i class="material-icons">menu</i>
+            </a>
+
+            
+            <ul id="nav-mobile" class="sidenav">
+                
+                
+    
+        
+            
+<li>
+    <a class="black-text" href="/">Home</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/llinet">LLINet</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/dataset">Dataset</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/results">Results</a>
+</li>
+
+        
+    
+    
+
+            </ul>
+
+            
+            <a href="/" class="brand-logo grey-text text-darken-3">Look, Listen and Infer</a>
+
+            
+            <div class="nav-wrapper">
+
+                
+                <ul class="right hide-on-med-and-down">
+                    
+                    
+    
+        
+            
+<li>
+    <a class="black-text" href="/">Home</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/llinet">LLINet</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/dataset">Dataset</a>
+</li>
+
+        
+    
+        
+            
+<li>
+    <a class="black-text" href="/posts/results">Results</a>
+</li>
+
+        
+    
+    
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
+    
+
+    
+
+<article class="max-width">
+    
+    <section class="row">
+        <div class="col s12 m10 offset-m1 l10 offset-l1">
+            <h1>Dataset</h1>
+        </div>
+    </section>
+
+    
+    
+
+    
+    <section class="row">
+        <div class="col s12 m8 offset-m2 l2 offset-l1">
+            
+
+<p class="article-meta">
+    <div class="article-meta-container">
+        <div class="article-meta-author-name"></div>
+        <div class="article-meta-description"></div>
+    </div>
+    <span class="article-meta-published-at grey-text text-darken-1">Jul 2, 2020</span>
+</p>
+        </div>
+        <div class="col s12 m8 offset-m2 l6" style = "text-align: justify; font-size: 1.25em;font-weight: 300;">
+            
+
+<h3 id="instruments-32class">INSTRUMENTS_32CLASS</h3>
+
+<hr>
+
+<p>INSTRUMENTS_32CLASS is a new collocted instruments playing dataset, which is subset of AudioSet. The form of data is 10 sec excerpets from Youtube.</p>
+
+<p>In order to get a less noisy and well-labeld dataset for zero-shot learning, instrument solo playing videos with correct audio-visual correspondence were picked manually.</p>
+
+<h5 id="preprocessing"><strong>Preprocessing</strong></h5>
+
+<hr>
+
+<p>In view of the fact that the information of an instrument is mainly contained in its timbre while is less relevant to the length of time, we thus cropped audios from 10s to 3s. With respect to videos, corresponding intermediate image frames are selected as their representatives.</p>
+
+<p><strong>The samples of dataset can be seen as follow:</strong></p>
+
+<div>
+  <table border='1'>
+  <tr>
+  <td align="center">
+    <img src="source/Double bass00001.jpg" alt="Double bass00001" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/Electric guitar00001.jpg" alt="Electric guitar00001" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/Steel guitar00003.jpg" alt="Steel guitar00003" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/Glockenspiel00006.jpg" alt="Glockenspiel00006" style="width:150px;" />
+  </td>
+  </tr>
+  <tr>
+  <td align="center">
+    <audio id="audio" controls="" preload="none" style="width:150px"><source src="source/Double bass00001.wav"></audio>
+  </td>
+  <td align="center">
+    <audio id="audio" controls="" preload="none" style="width:150px"><source src="source/Electric guitar00001.wav"></audio>
+    </td>
+  <td align="center"><audio id="audio" controls="" preload="none" style="width:150px"><br/>  <source src="source/Steel guitar00003.wav"></audio></td>
+  <td align="center"><audio id="audio" controls="" preload="none" style="width:150px"><br/>  <source src="source/Glockenspiel00006.wav"></audio></td>
+  </tr>
+  </table>
+    <table border='1'>
+  <tr>
+  <td align="center">
+    <img src="source/Didgeridoo00001.jpg" alt="Didgeridoo00001" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/French horn00001.jpg" alt="French horn00001" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/Shofar00005.jpg" alt="Shofar00005" style="width:150px;" />
+  </td>
+  <td align="center">
+    <img src="source/Tabla00001.jpg" alt="Tabla00001" style="width:150px;" />
+  </td>
+  </tr>
+  <tr>
+  <td align="center">
+    <audio id="audio" controls="" preload="none" style="width:150px"><source src="source/Didgeridoo00001.wav"></audio>
+  </td>
+  <td align="center">
+    <audio id="audio" controls="" preload="none" style="width:150px"><source src="source/French horn00001.wav"></audio>
+    </td>
+  <td align="center"><audio id="audio" controls="" preload="none" style="width:150px"><br/>  <source src="source/Shofar00005.wav"></audio></td>
+  <td align="center"><audio id="audio" controls="" preload="none" style="width:150px"><br/>  <source src="source/Tabla00001.wav"></audio></td>
+  </tr>
+  </table>
+</div>
+
+<h5 id="training-test-set-division"><strong>Training / Test set division</strong></h5>
+
+<hr>
+
+<p><strong>Training set :</strong> 24 instrument categories with 2857 image-audio pairs</p>
+
+<p><strong>Test set :</strong> 8 instrument categories with 747  pairs.</p>
+
+<h5 id="segmentation-for-sound-localization"><strong>Segmentation for sound localization</strong></h5>
+
+<hr>
+
+<p>we provide the instrument mask of each image in the test set, so that the dataset can be used for quantitative evaluation of sound localization.</p>
+
+<h5 id="details-statistics"><strong>Details Statistics</strong></h5>
+
+<hr>
+
+<p>The detail statistics of the dataset and some samples of image-audio pairs and image masks are shown as follow:</p>
+
+<p><img src="source/segmentationdataset.png" alt="segmentationdataset" style="width:700px;" /></p>
+
+<h5 id="release">Release</h5>
+
+<hr>
+
+<p>The dataset has been released and can be download from <a href="xxxx">here</a></p>
+
+        </div>
+    </section>
+</article>
+
+
+
+    
+      <footer class="page-footer grey lighten-5">
+    <div class="row max-width">
+        <div class="col s12 l10 offset-l1 clear-padding">
+            <div class="row">
+    
+        
+    
+
+    
+    
+    <div class="col s12 l12">
+        <h5 class="black-text">Data and codes</h5>
+<p class="grey-text text-darken-4">The code of LLINet has been released on github, you can refer and download <a href="">here</a>.</p>
+<p class="grey-text text-darken-4">INSTRUMENTS-32CLASS, the dataset of LLINet, has been released on github too, you can download <a href="">here</a>.</p>
+    </div>
+
+    
+</div>
+
+
+        </div>
+    </div>
+    <div class="footer-copyright">
+        <div class="row max-width" style="width: 100%;">
+            <div class="col s12 l10 offset-l1">
+                <span class="grey-text text-darken-4"></span>
+<div class="right">
+    
+</div>
+            </div>
+        </div>
+    </div>
+</footer>
+    
+
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="http://example.org/js/script.js"></script>
+  </body>
+</html>
