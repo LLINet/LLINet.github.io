@@ -176,7 +176,9 @@
 
 <p>In this work, for the first time, a <strong>Look, Listen and Infer Network</strong> (LLINet) is proposed to learn a zero-shot model that can infer the relations of visual scenes and sounds from novel categories never appeared before.</p>
 
-<p><img src="source/pipeline.jpg" alt="pipeline" style="zoom:48%;" /></p>
+<div align="center">
+    <img src="source/pipeline.jpg" alt="pipeline" style="zoom:50%;" />
+</div>
 
 <p>LLINet is  mainly desired to qualify for two tasks, i.e., image-audio cross-modal retrieval and sound localization in each image. Towards this end, it is designed as a two-branch encoding network that builds a common space for images and audios.Besides, a cross-modal attention mechanism is proposed in LLINet to localize sound objects. To evaluate LLINet, a new data set, named INSTRUMENT-32CLASS, is collected in this work.</p>
 
@@ -188,7 +190,9 @@
 
 <p>LLINet respectively utilizes an audio encoder and a visual encoder to embed input audios and images into a shared common space, sothat simple nearest neighbor methods can be used to perform thecross-modal retrieval task.</p>
 
-<p><img src="source/modelframework1.jpg" alt="modelframework1" style="zoom:32%;" /></p>
+<div align="center">
+    <img src="source/modelframework1.jpg" alt="modelframework1" style="zoom:40%;" />
+</div>
 
 <p><strong>Audio Encoder:</strong> The audio encoder consists of one convolution block, two residual connected blocks and a fully connected layer. The architecture of the convolution block is similar with the one in ResNet18. The last layer of the audio encoder is a single fully connected layer, mapping each audio feature into a 1024-d vector.</p>
 

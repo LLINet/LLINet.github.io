@@ -39,7 +39,7 @@ Preprocessing  In view of the fact that the information of an instrument is main
       
       <guid>http://example.org/posts/llinet/</guid>
       <description>Abstract  In this work, for the first time, a Look, Listen and Infer Network (LLINet) is proposed to learn a zero-shot model that can infer the relations of visual scenes and sounds from novel categories never appeared before.
-LLINet is mainly desired to qualify for two tasks, i.e., image-audio cross-modal retrieval and sound localization in each image. Towards this end, it is designed as a two-branch encoding network that builds a common space for images and audios.</description>
+ LLINet is mainly desired to qualify for two tasks, i.e., image-audio cross-modal retrieval and sound localization in each image. Towards this end, it is designed as a two-branch encoding network that builds a common space for images and audios.</description>
     </item>
     
   </channel>
