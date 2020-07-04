@@ -184,19 +184,30 @@
 
 <p>Besides zero-shot cross-modal retrieval and sound localization, a zero-shot image recognition task based on sounds is also conducted on this database. All experimental results on these tasks demonstrate the effectiveness of LLINet, indicating that zero-shot learning for visual scenes and sounds is feasible.</p>
 
+<p><br/></p>
+
+<p><br/></p>
+
 <h4 id="framework">Framework</h4>
 
 <hr>
 
 <p>LLINet respectively utilizes an audio encoder and a visual encoder to embed input audios and images into a shared common space, sothat simple nearest neighbor methods can be used to perform thecross-modal retrieval task.</p>
 
-<div align="center">
+<p><br/></p>
+
+<p><div align="center">
     <img src="source/modelframework1.jpg" alt="modelframework1" style="width:90%;"/>
 </div>
+<br/></p>
 
 <p><strong>Audio Encoder:</strong> The audio encoder consists of one convolution block, two residual connected blocks and a fully connected layer. The architecture of the convolution block is similar with the one in ResNet18. The last layer of the audio encoder is a single fully connected layer, mapping each audio feature into a 1024-d vector.</p>
 
+<p><br/></p>
+
 <p><strong>Image Encoder :</strong>   ResNet-101, pre-trained on the ImageNet,  is adopted  as the image feature extractor. On top of it, two-layer linear layer is employed to map visual features into the common space.</p>
+
+<p><br/></p>
 
 <p><strong>Attention module :</strong> The attention module consists of an attention layer and a transformer. Given an image-audio pair, the attention layer and the transformer are respectively used to project the tensor vector  extracted from the second block of the image encoder and the global audio feature into a common space, so that we can calculate similarity scores between each local position of image and the audio feature.</p>
 

@@ -17,8 +17,13 @@
       <pubDate>Thu, 02 Jul 2020 21:23:46 +0800</pubDate>
       
       <guid>http://example.org/posts/results/</guid>
-      <description>Results  The model is trained and evaluated on three tasks:
-1. Zero-Shot Cross-Model Retrieval 2. Zero-Shot Sound Localization 3. Zero-Shot Recognition.  Zero-Shot Cross-Model Retrieval  Note that there are many excellent image-text cross-modal retrieval models in the literature. To compare with these image-text models, we replace their text encoders by our audio encoder. For a fair comparison, the input audios for all methods are represented by log Mel filter bank spectrograms as in our method.</description>
+      <description>Results  The LLINet is trained and evaluated on three tasks:
+1.Zero-Shot Cross-Model Retrieval
+2.Zero-Shot Sound Localization
+3.Zero-Shot Recognition.
+
+
+Zero-Shot Cross-Model Retrieval  Note that there are many excellent image-text cross-modal retrieval models in the literature. To compare with these image-text models, we replace their text encoders by our audio encoder. For a fair comparison, the input audios for all methods are represented by log Mel filter bank spectrograms as in our method.</description>
     </item>
     
     <item>
@@ -29,6 +34,8 @@
       <guid>http://example.org/posts/dataset/</guid>
       <description>INSTRUMENTS_32CLASS  INSTRUMENTS_32CLASS is a new collocted instruments playing dataset, which is subset of AudioSet. The form of data is 10 sec excerpets from Youtube.
 In order to get a less noisy and well-labeld dataset for zero-shot learning, instrument solo playing videos with correct audio-visual correspondence were picked manually.
+
+
 Preprocessing  In view of the fact that the information of an instrument is mainly contained in its timbre while is less relevant to the length of time, we thus cropped audios from 10s to 3s.</description>
     </item>
     
